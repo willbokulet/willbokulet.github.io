@@ -1,0 +1,27 @@
+/*FOR TESTING PURPOSES*/
+.blueguide{
+	border: 1px dashed blue;
+}
+
+.blackguide{
+	border: 1px dashed black;
+}
+
+.redguide{
+	border: 1px dashed red;
+}
+
+.yellowguide{
+	border: 1px dashed yellow;
+}
+
+.greenguide{
+	border: 1px dashed green;
+}
+
+.padd-zero{
+	padding: 50px;
+}
+
+
+
