@@ -18,6 +18,9 @@
 		<!-- CDN AngularJS-->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 		
+		<!-- AREA Controller JS-->
+		<script src="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Scripts\share-controller.js"></script>
+		
 		<!-- CDN bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		
@@ -25,15 +28,16 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
 		<!-- Link to Area CSS-->
 		<!-- Area HOME -->
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Styles\share.css">
+		
 	</head>
 
-	<body ng-app="home-controller">
+	<body ng-app="myApp">
 	
-		<div class="container-liquid">
-		
+		<div class="container-liquid">		
 			<nav class="navbar navbar-default navbar-fixed-top">
+			<a class="navbar-brand" href="#">All In One</a>
+			
 			  <div class="container">
 				<div class="navbar-header">
 				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -45,18 +49,40 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 				  <ul class="nav navbar-nav mx-auto">
-					<li><a href="#about">MVP Tracker</a></li>
-					<li><a href="#services">Shares</a></li>
+					<li><a href="#tracker">Tracker</a></li>
+					<li><a href="#shares">Shares</a></li>
+					<li><a href="#tracker">Members</a></li>
+					<li><a href="#shares">About</a></li>
 				  </ul>
-				</div>
+				</div>				
 			  </div>
 			</nav>
 			
 		</div>
+		<div class="panel-body blueguide" ng-controller="share-controller">
+			<div class="container redguide">
+				<h1>TABLE</h1>
+				<table class="table table-responsive table-striped">
+					<tr ng-repeat="share in shares">
+						<td>{{share.Item}}aaa</td>
+						<td>{{Members}}aaa</td>
+						<td>{{Seller}}aaa</td>
+						<td>{{Raid_Date}}aaa</td>
+						<td>{{Status}}aaa</td>
+						<td>{{Closed_Date}}aaa</td>
+						
+						<!--<td>{{Item}}</td>
+						<td>{{Members}}</td>
+						<td>{{Seller}}</td>
+						<td>{{Raid_Date}}</td>
+						<td>{{Status}}</td>
+						<td>{{Closed_Date}}</td>-->
+					</tr>
+				</table>
+			</div>
+		</div>
+
 		
 	</body>
-	
-	<!-- AREA Controller JS-->
-	<script src="#"></script>
 	
 </html>
