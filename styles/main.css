@@ -1,4 +1,29 @@
 
+.panel-body {
+	padding-top: 6%;
+}
+
+
+/*greater than ipad*/
+@media (max-width: 1023px) {
+    .panel-body {
+        padding-top: 10%;
+    }
+}
+
+/*iphoneX | iphone 6,7,8*/
+@media (max-width: 550px) {
+    .panel-body {
+        padding-top: 15%;
+    }
+} 
+
+/*iphone5/se | */
+@media (max-width: 325px) {
+    .panel-body {
+        padding-top: 20%;
+    }
+} 
 /*FOR TESTING PURPOSES*/
 .blueguide{
 	border: 1px dashed blue;
