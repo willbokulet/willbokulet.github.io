@@ -1,0 +1,41 @@
+
+.person{
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	max-height: 160px;
+	max-width: 160px;
+}
+
+.person:hover{
+	border-color: #f1f1f1;
+}
+
+/*FOR TESTING PURPOSES*/
+.blueguide{
+	border: 1px dashed blue;
+}
+
+.blackguide{
+	border: 1px dashed black;
+}
+
+.redguide{
+	border: 1px dashed red;
+}
+
+.yellowguide{
+	border: 1px dashed yellow;
+}
+
+.greenguide{
+	border: 1px dashed green;
+}
+
+.padd-zero{
+	padding: 50px;
+}
+
+
+
