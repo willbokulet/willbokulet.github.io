@@ -23,24 +23,24 @@
 		<!-- Font Awesome -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 		<!-- Area CSS -->
-		<!--<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\main.css">
+		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\main.css">
 		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\share.css">
 		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\members.css">
 		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\tracker.css">
-		-->
 		
+		<!--
 		<link rel="stylesheet" href="/styles/main.css">
 		<link rel="stylesheet" href="/styles/share.css">
 		<link rel="stylesheet" href="/styles/members.css">
 		<link rel="stylesheet" href="/styles/tracker.css">
-		
+		-->
 		
 	</head>
 
 	<body id="myPage" ng-app="myApp">
 	
 		<div class="container-liquid">		
-			<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
 			  <a class="navbar-brand" href="#">All In One</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -61,10 +61,6 @@
 					<a class="nav-link" href="#about">About</a>
 				  </li>
 				</ul>
-				<form class="form-inline my-2 my-lg-0">
-				  <input class="form-control mr-sm-2" type="text" placeholder="Search">
-				  <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-				</form>
 			  </div>
 			</nav>
 			
@@ -74,7 +70,7 @@
 			<div class="container">
 				<h2>Tracker</h2>
 				<div class="class="container text-center"">
-					<p>Where the craziest people of TalonRO lives.</p>					
+					<p>Where the craziest people of TalonRO lives.</p>			
 					<!-- ========== -->
 					<div id="myCarousel" class="redguide carousel slide" data-ride="carousel">
 						<!-- Holder -->
@@ -174,48 +170,44 @@
 						</table>
 					</div>
 				</div>
-				<div class="container">
-					<h2>Form</h2>
-					<div class="row">
-						<form novalidate name="share_form" ng-submit="shareCtrlr.addShares(); shareCtrlr.saveToFirebase()">
-							<div class="form-group">
-								<div class="row">
-									<div class="col">
-										<label for="items">Items</label>
-										<input class="form-control" type="text" id="items" name="items" ng-model="shareCtrlr.newShares.Items" required ng-minlength="4"/>
-										<span ng-show="share_form.items.$error.required" class="text-warning">Items is required.</span>
-										<span ng-show="share_form.items.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
-									</div>
-									<div class="col">
-										<label for="members">Members</label>
-										<input class="form-control" type="text" id="members" name="members" ng-model="shareCtrlr.newShares.Members" required ng-minlength="4"/>
-										<span ng-show="share_form.members.$error.required" class="text-warning">Members is required.</span>
-										<span ng-show="share_form.members.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
-									</div>
-									<div class="col">
-										<label for="seller">Seller</label>
-										<input class="form-control" type="text" id="seller" name="seller" ng-model="shareCtrlr.newShares.Seller" required ng-minlength="4"/>
-										<span ng-show="share_form.seller.$error.required" class="text-warning">Seller is required.</span>
-										<span ng-show="share_form.seller.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
-									</div>
-								</div>								
-							</div>
-							<div class="form-group">
-								<input type="submit" value="Add" 
-								class="btn btn-primary btn-sm"
-								ng-disabled="share_form.$invalid"/>
-								
-								<input type="submit" value="Add" 
-								class="btn btn-primary btn-sm"
-								ng-disabled="share_form.$invalid"/>
-							</div>
-						</form>
+				<div class="row">
+					<div class="container">
+						<h2>Form</h2>
+							<form novalidate name="share_form" ng-submit="shareCtrlr.addShares()">
+								<div class="form-group">
+									<div class="row">
+										<div class="col">
+											<label for="items">Items</label>
+											<input class="form-control" type="text" id="items" name="items" ng-model="shareCtrlr.newShares.Items" required ng-minlength="4"/>
+											<span ng-show="share_form.items.$error.required" class="text-warning">Items is required.</span>
+											<span ng-show="share_form.items.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+										</div>
+										<div class="col">
+											<label for="members">Members</label>
+											<input class="form-control" type="text" id="members" name="members" ng-model="shareCtrlr.newShares.Members" required ng-minlength="4"/>
+											<span ng-show="share_form.members.$error.required" class="text-warning">Members is required.</span>
+											<span ng-show="share_form.members.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+										</div>
+										<div class="col">
+											<label for="seller">Seller</label>
+											<input class="form-control" type="text" id="seller" name="seller" ng-model="shareCtrlr.newShares.Seller" required ng-minlength="4"/>
+											<span ng-show="share_form.seller.$error.required" class="text-warning">Seller is required.</span>
+											<span ng-show="share_form.seller.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+										</div>
+									</div>								
+								</div>
+								<div class="form-group">
+									<input type="submit" value="Add" 
+									class="btn btn-primary btn-sm"
+									ng-disabled="share_form.$invalid"/>
+								</div>
+							</form>
 					</div>
 				</div>
 				
 			</div>
 		</div>
-
+		<!-- MEMBERS -->
 		<div id="members" class="panel-body">
 			<div class="container">
 				<h2>Members</h2>
@@ -276,6 +268,21 @@
 		  <p>FOOOOOOOOOOOOOOOOOTer</p> 
 		  <br><br><br>
 		</footer>
+		
+		<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyAR0s-aKQn23_igJ99kE82Fjms2e7B4bBU",
+			authDomain: "willbo-kulet.firebaseapp.com",
+			databaseURL: "https://willbo-kulet.firebaseio.com",
+			projectId: "willbo-kulet",
+			storageBucket: "",
+			messagingSenderId: "769425034009"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -287,8 +294,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 		
 		<!-- AREA Controller JS-->
-		<!-- <script src="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Scripts\share-controller.js"></script> -->
-		<script src="/scripts/share-controller.js"></script>
+		<script src="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Scripts\share-controller.js"></script> 
+		<!-- <script src="/scripts/share-controller.js"></script>-->
 		
 	</body>
 	
