@@ -177,7 +177,7 @@
 				<div class="container">
 					<h2>Form</h2>
 					<div class="row">
-						<form novalidate name="share_form" ng-submit="shareCtrlr.addShares()">
+						<form novalidate name="share_form" ng-submit="shareCtrlr.addShares(); shareCtrlr.saveToFirebase()">
 							<div class="form-group">
 								<div class="row">
 									<div class="col">
@@ -201,6 +201,10 @@
 								</div>								
 							</div>
 							<div class="form-group">
+								<input type="submit" value="Add" 
+								class="btn btn-primary btn-sm"
+								ng-disabled="share_form.$invalid"/>
+								
 								<input type="submit" value="Add" 
 								class="btn btn-primary btn-sm"
 								ng-disabled="share_form.$invalid"/>
