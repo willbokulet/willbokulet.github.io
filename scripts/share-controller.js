@@ -50,9 +50,9 @@ angular
 			});
 		};
 		
-		function saveToFirebase(email) {
+		vm.saveToFirebase = function () {
 		    var emailObject = {
-			email: email
+			email: vm.newShares.Items
 		    };
 
 		    firebase.database().ref('subscription-entries').push().set(emailObject)
