@@ -21,9 +21,12 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/cerulean/bootstrap.min.css">
 		<!-- Link to Area CSS-->
 		<!-- Area HOME -->
-		<!-- C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp -->
-		<link rel="stylesheet" href="/styles/main.css">
-		<link rel="stylesheet" href="/styles/share.css">
+		 
+		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\main.css">
+		<link rel="stylesheet" href="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\styles\share.css">
+		
+		<!--<link rel="stylesheet" href="/styles/main.css">
+		<link rel="stylesheet" href="/styles/share.css">-->
 		
 	</head>
 
@@ -80,46 +83,65 @@
 				</div>
 				<div class="row">
 					<div class="container col-lg-12">
-						<table class="table table-hover table-responsive">
-							<thead>
-								<tr>
-									<th>Items</th>
-									<th>Members</th>
-									<th>Seller</th>
-									<th>Raid_Date</th>
-									<th>Status</th>
-									<th>Closed_Date</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="table-secondary" ng-repeat="share in shareCtrlr.shares">
-									<td>{{share.Items}}</td>
-									<td>{{share.Members}}</td>
-									<td>{{share.Seller}}</td>
-									<td>{{share.Raid_Date | date}}</td>
-									<td>{{share.Status}}</td>
-									<td>{{share.Closed_Date | date}} </td>
-								</tr>
-							</tbody>
+						<table class="table table-hover">
+						  <thead>
+							<tr>
+							  <th scope="col">Items</th>
+							  <th scope="col">Members</th>
+							  <th scope="col">Seller</th>
+							  <th scope="col">Raid_Date</th>
+							  <th scope="col">Status</th>
+							  <th scope="col">Closed_Date</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr class="table-secondary" ng-repeat="share in shareCtrlr.shares">
+								<td>{{share.Items}}</td>
+								<td>{{share.Members}}</td>
+								<td>{{share.Seller}}</td>
+								<td>{{share.Raid_Date | date}}</td>
+								<td>{{share.Status}}</td>
+								<td>{{share.Closed_Date | date}} </td>
+							</tr>
+						  </tbody>
 						</table>
 					</div>
 				</div>
-				<h2>Form</h2>
-				<div class="row">
-					<form novalidate name="share_form" ng-submit="shareCtrlr.addShares()">
-						<div class="form-group">
-							<label for="items">Items</label>
-							<input class="form-control" type="text" id="items" name="items" ng-model="shareCtrlr.newShares.Items" required ng-minlength="4"/>
-							<span ng-show="share_form.items.$error.required" class="text-warning">Items is required.</span>
-							<span ng-show="share_form.items.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Add" 
-							class="btn btn-primary btn-sm"
-							ng-disabled="share_form.$invalid"/>
-						</div>
-					</form>
+				<div class="container">
+					<h2>Form</h2>
+					<div class="row">
+						<form novalidate name="share_form" ng-submit="shareCtrlr.addShares()">
+							<div class="form-group">
+								<div class="row">
+									<div class="col">
+										<label for="items">Items</label>
+										<input class="form-control" type="text" id="items" name="items" ng-model="shareCtrlr.newShares.Items" required ng-minlength="4"/>
+										<span ng-show="share_form.items.$error.required" class="text-warning">Items is required.</span>
+										<span ng-show="share_form.items.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+									</div>
+									<div class="col">
+										<label for="members">Members</label>
+										<input class="form-control" type="text" id="members" name="members" ng-model="shareCtrlr.newShares.Members" required ng-minlength="4"/>
+										<span ng-show="share_form.members.$error.required" class="text-warning">Members is required.</span>
+										<span ng-show="share_form.members.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+									</div>
+									<div class="col">
+										<label for="seller">Seller</label>
+										<input class="form-control" type="text" id="seller" name="seller" ng-model="shareCtrlr.newShares.Seller" required ng-minlength="4"/>
+										<span ng-show="share_form.seller.$error.required" class="text-warning">Seller is required.</span>
+										<span ng-show="share_form.seller.$error.minlength" class="text-warning">Must be atleast 4 characters</span>
+									</div>
+								</div>								
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Add" 
+								class="btn btn-primary btn-sm"
+								ng-disabled="share_form.$invalid"/>
+							</div>
+						</form>
+					</div>
 				</div>
+				
 			</div>
 		</div>
 
@@ -134,8 +156,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 		
 		<!-- AREA Controller JS-->
-		<!-- <script src="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Scripts\app.js"></script> -->
-		<script src="/scripts/share-controller.js"></script>
+		<script src="C:\Users\weayubo\myOwn\Ragnarok MVP Tracker project\Areas\myApp\Scripts\share-controller.js"></script> 
+		<!-- <script src="/scripts/share-controller.js"></script>-->
 		
 	</body>
 	
