@@ -55,7 +55,7 @@ angular
 			email: vm.newShares.Items
 		    };
 
-		    firebase.database().ref('https://willbo-kulet.firebaseio.com/').push().set(emailObject)
+		    firebase.database().ref('subscription-entries').push().set(emailObject)
 			.then(function(snapshot) {
 			    success(); // some success method
 			}, function(error) {
