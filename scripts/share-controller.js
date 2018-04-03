@@ -42,8 +42,8 @@ angular
 		vm.addShares = function (){
 			vm.shares.push({
 				Items: vm.newShares.Items,
-				Members: "Everyone",
-				Seller: "Vending Master",
+				Members: vm.newShares.Members,
+				Seller: vm.newShares.Seller,
 				Raid_Date: new Date(),
 				Status: "Open",
 				Closed_Date: new Date()
