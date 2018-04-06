@@ -1,4 +1,68 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title>Ragnarok MVP Tracker</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.726aed18.css"> <link rel="stylesheet" href="styles/main.ab512c3e.css"> </head> <body class="ng-cloak" ng-app="roMvpTrackerApp" ng-controller="AuthCtrl"> <!-- Add your site or application content here --> <div class="header"> <div class="navbar navbar-default" role="navigation"> <div class="container-fluid container"> <ul class="nav navbar-nav"> <li ui-sref-active="active"> <a ui-sref="mvp">MVP</a> </li> <li ui-sref-active="active"> <a ui-sref="share">Share</a> </li> </ul> <span class="navbar-element dn-flip-x" ng-if="$state.is('mvp') || $state.is('share')"> <span class="dropdown-settings" is-open="settingsDropdown.open" uib-dropdown> <a href="javascript:void(0);" id="dropdownMenu1" uib-dropdown-toggle> <span class="fas fa-sliders-h"></span> </a>  <ul class="dropdown-menu dropdown-menu-right dn-flip-x" role="menu" aria-labelledby="dropdownMenu1" ng-show="settingsDropdown.open" uib-dropdown-menu> <li class="dropdown-settings-content" ng-click="$event.stopPropagation();"> <div ng-include="'views/settings.html'"></div> </li> </ul> </span> </span> <span class="navbar-element dn-flip-x" ng-if="($state.is('mvp') || $state.is('share')) && login.userData.activated"> <span class="dropdown-users" is-open="usersDropdown.open" uib-dropdown ng-controller="UsersCtrl"> <a href="javascript:void(0);" id="dropdownMenu2" class="fa-layers fa-fw" uib-dropdown-toggle> <span class="fas fa-users"></span> <span class="fa-layers-counter users-counter" ng-if="usersOnline.length > 0">{{usersOnline.length}}</span> </a>  <ul class="dropdown-menu dropdown-menu-right dn-flip-x" role="menu" aria-labelledby="dropdownMenu2" ng-show="usersDropdown.open" uib-dropdown-menu> <li class="dropdown-users-content" ng-click="$event.stopPropagation();"> <div ng-include="'views/users.html'"></div> </li> </ul> </span> </span> <span class="navbar-element dn-flip-x" ng-if="login.authenticating"> <i class="fas fa-circle-notch fa-spin"></i> </span> </div> </div> </div> <!-- <pre>{{login | json}}</pre> --> <div class="content"> <div class="container"> <div class="animate-out-hide animated bounceInLeft" ng-show="true" ui-view=""></div> </div> </div> <div class="footer"> <div class="container"> <a href="https://willbokulet.github.io" target="_blank"><i class="fab fa-github"></i> Github</a> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+<!doctype html> 
+<html> 
+       <head> 
+              <meta charset="utf-8"> 
+              <title>Ragnarok MVP Tracker</title> 
+              <meta name="description" content=""> 
+              <meta name="viewport" content="width=device-width"> 
+              <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> 
+              <!-- CDN bootstrap-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<!-- CDN bootswatch-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/cerulean/bootstrap.min.css">
+		
+		<!-- Font Awesome -->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+              <link rel="stylesheet" href="styles/vendor.726aed18.css"> 
+              <link rel="stylesheet" href="styles/main.ab512c3e.css"> 
+       </head> <body class="ng-cloak" ng-app="roMvpTrackerApp" ng-controller="AuthCtrl"> 
+       <!-- Add your site or application content here --> 
+       <div class="header"> 
+              <!-- <ADDED> --> 
+              <div class="container-liquid">		
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+			  <a class="navbar-brand" href="#">All In One</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarColor01">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#tracker">Tracker<span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#shares">Shares</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#members">Members</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				  </li>
+				</ul>
+			  </div>
+			</nav>
+		</div>
+              <!-- </ADDED> --> 
+              
+              <div class="navbar navbar-default" role="navigation"> 
+                     <div class="container-fluid container"> 
+                            <ul class="nav navbar-nav"> 
+                                   <li ui-sref-active="active"> 
+                                          <a ui-sref="mvp">MVP</a> 
+                                   </li> 
+                                   <li ui-sref-active="active"> 
+                                          <a ui-sref="share">Share</a> 
+                                   </li> 
+                            </ul> 
+                            <span class="navbar-element dn-flip-x" ng-if="$state.is('mvp') || $state.is('share')"> 
+                                   <span class="dropdown-settings" is-open="settingsDropdown.open" uib-dropdown> 
+                                          <a href="javascript:void(0);" id="dropdownMenu1" uib-dropdown-toggle> 
+                                                 <span class="fas fa-sliders-h"></span> 
+                                          </a>  
+                                          <ul class="dropdown-menu dropdown-menu-right dn-flip-x" role="menu" aria-labelledby="dropdownMenu1" ng-show="settingsDropdown.open" uib-dropdown-menu> <li class="dropdown-settings-content" ng-click="$event.stopPropagation();"> <div ng-include="'views/settings.html'"></div> </li> </ul> </span> </span> <span class="navbar-element dn-flip-x" ng-if="($state.is('mvp') || $state.is('share')) && login.userData.activated"> <span class="dropdown-users" is-open="usersDropdown.open" uib-dropdown ng-controller="UsersCtrl"> <a href="javascript:void(0);" id="dropdownMenu2" class="fa-layers fa-fw" uib-dropdown-toggle> <span class="fas fa-users"></span> <span class="fa-layers-counter users-counter" ng-if="usersOnline.length > 0">{{usersOnline.length}}</span> </a>  <ul class="dropdown-menu dropdown-menu-right dn-flip-x" role="menu" aria-labelledby="dropdownMenu2" ng-show="usersDropdown.open" uib-dropdown-menu> <li class="dropdown-users-content" ng-click="$event.stopPropagation();"> <div ng-include="'views/users.html'"></div> </li> </ul> </span> </span> <span class="navbar-element dn-flip-x" ng-if="login.authenticating"> <i class="fas fa-circle-notch fa-spin"></i> </span> </div> </div> </div> <!-- <pre>{{login | json}}</pre> --> <div class="content"> <div class="container"> <div class="animate-out-hide animated bounceInLeft" ng-show="true" ui-view=""></div> </div> </div> <div class="footer"> <div class="container"> <a href="https://willbokulet.github.io" target="_blank"><i class="fab fa-github"></i> Github</a> </div> </div> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
        (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
        r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
        }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
