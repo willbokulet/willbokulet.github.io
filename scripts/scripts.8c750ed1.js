@@ -224,8 +224,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "prt_maze03",
       name: "Baphomet",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1873,
@@ -288,8 +288,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "bra_dun02",
       name: "Boitata",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1272,
@@ -328,8 +328,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "gef_dun02",
       name: "Doppelganger",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1389,
@@ -344,24 +344,24 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "treasure02",
       name: "Drake",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1115,
       map: "pay_fild11",
       name: "Eddga",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1652,
       map: "lhz_dun02",
       name: "Egnigem Cenia",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1418,
@@ -376,16 +376,16 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "abbey02",
       name: "Fallen Bishop Hibram",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1252,
       map: "xmas_fild01",
       name: "Garm",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1120,
@@ -432,8 +432,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "mosk_dun03",
       name: "Gopinich",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1990,
@@ -472,8 +472,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "iz_dun05",
       name: "Kraken",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1779,
@@ -496,8 +496,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "dew_dun01",
       name: "Leak",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1373,
@@ -512,8 +512,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "anthell02",
       name: "Maya",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1289,
@@ -528,8 +528,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "mjolnir_04",
       name: "Mistress",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1150,
@@ -560,8 +560,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "gef_fild10",
       name: "Orc Lord",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1038,
@@ -584,8 +584,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "moc_fild17",
       name: "Phreeoni",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 2087,
@@ -680,8 +680,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "jupe_core",
       name: "Vesper",
       respawn: {
-        min: 7200,
-        max: 7800
+        min: 6300,
+        max: 8100
       }
     }, {
       id: 1917,
