@@ -238,50 +238,18 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1646,
       map: "lhz_dun03",
-      name: "Lord Knight Seyren (Bio 3)",
-      respawn: {
-        min: 6e3,
-        max: 7800
-      }
-    }, {
-      id: 1647,
-      map: "lhz_dun03",
-      name: "Assassin Cross Eremes (Bio 3)",
-      respawn: {
-        min: 6e3,
-        max: 7800
-      }
-    }, {
-      id: 1648,
-      map: "lhz_dun03",
-      name: "Whitesmith Howard (Bio 3)",
-      respawn: {
-        min: 6e3,
-        max: 7800
-      }
-    }, {
-      id: 1649,
-      map: "lhz_dun03",
-      name: "High Priest Margaretha (Bio 3)",
-      respawn: {
-        min: 6e3,
-        max: 7800
-      }
-    }, {
-      id: 1650,
-      map: "lhz_dun03",
-      name: "Sniper Cecil (Bio 3)",
+      name: "Bio 3 MVP",
       respawn: {
         min: 6e3,
         max: 7800
       }
     }, {
       id: 1651,
-      map: "lhz_dun03",
-      name: "High Wizard Kathryne (Bio 3)",
+      map: "lhz_dun04",
+      name: "Bio 4 MVP",
       respawn: {
         min: 6e3,
-        max: 7800
+        max: 8100
       }
     }, {
       id: 2068,
