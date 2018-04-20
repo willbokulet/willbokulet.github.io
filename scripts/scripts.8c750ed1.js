@@ -134,7 +134,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     return [{
       id: 1511,
       map: "moc_pryd06",
-      name: "Amon Ra",
+      name: "Amon Ra (Daydream)",
       respawn: {
         min: 2700,
         max: 4500
@@ -142,7 +142,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 2362,
       map: "moc_prydn2",
-      name: "Amon Ra",
+      name: "Amon Ra(Nightmare)",
       respawn: {
         min: 2700,
         max: 4500
