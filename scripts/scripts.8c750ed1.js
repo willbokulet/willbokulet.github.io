@@ -139,7 +139,15 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         min: 2700,
         max: 4500
       }
-    }, {
+    },{
+      id: 2362,
+      map: "moc_prydn2",
+      name: "Amon Ra",
+      respawn: {
+        min: 2700,
+        max: 4500
+      }
+    },{
       id: 1096,
       map: "pay_fild04",
       name: "Angeling",
@@ -244,12 +252,12 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 7800
       }
     }, {
-      id: 1651,
+      id: 2231,
       map: "lhz_dun04",
       name: "Bio 4 MVP",
       respawn: {
-        min: 6e3,
-        max: 8100
+        min: 3300,
+        max: 6300
       }
     }, {
       id: 2068,
