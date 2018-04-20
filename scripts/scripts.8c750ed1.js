@@ -142,7 +142,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 2362,
       map: "moc_prydn2",
-      name: "Amon Ra(Nightmare)",
+      name: "Amon Ra (Nightmare)",
       respawn: {
         min: 2700,
         max: 4500
