@@ -270,7 +270,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1272,
       map: "gl_chyard",
-      name: "Dark Lord",
+      name: "Dark Lord [DL]",
       respawn: {
         min: 2700,
         max: 4500
@@ -334,7 +334,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1652,
       map: "lhz_dun02",
-      name: "Egnigem Cenia",
+      name: "Egnigem Cenia [GEC]",
       respawn: {
         min: 6300,
         max: 8100
@@ -342,7 +342,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1418,
       map: "gon_dun03",
-      name: "Evil Snake Lord",
+      name: "Evil Snake Lord [ESL]",
       respawn: {
         min: 5640,
         max: 6240
@@ -350,7 +350,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1871,
       map: "abbey02",
-      name: "Fallen Bishop Hibram",
+      name: "Fallen Bishop Hibram [FBH]",
       respawn: {
         min: 6300,
         max: 8100
@@ -398,7 +398,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1086,
       map: "prt_sewb4",
-      name: "Golden Thief Bug",
+      name: "Golden Thief Bug [GTB]",
       respawn: {
         min: 2700,
         max: 4500
@@ -478,7 +478,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1373,
       map: "niflheim",
-      name: "Lord of Death",
+      name: "Lord of Death [LOD]",
       respawn: {
         min: 7980,
         max: 8040
@@ -590,7 +590,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1251,
       map: "xmas_dun02",
-      name: "Stormy Knight",
+      name: "Stormy Knight [SK]",
       respawn: {
         min: 2700,
         max: 4500
@@ -598,7 +598,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1583,
       map: "beach_dun",
-      name: "Tao Gunka (West)",
+      name: "Tao Gunka (West) [TGK]",
       respawn: {
         min: 18e3,
         max: 18600
@@ -606,7 +606,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1583,
       map: "beach_dun2",
-      name: "Tao Gunka (North)",
+      name: "Tao Gunka (North) [TGK]",
       respawn: {
         min: 18e3,
         max: 18600
@@ -614,7 +614,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1583,
       map: "beach_dun3",
-      name: "Tao Gunka (East)",
+      name: "Tao Gunka (East) [TGK]",
       respawn: {
         min: 18e3,
         max: 18600
@@ -638,7 +638,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1312,
       map: "tur_dun04",
-      name: "Turtle General",
+      name: "Turtle General [TG]",
       respawn: {
         min: 2700,
         max: 4500
@@ -646,7 +646,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1751,
       map: "odin_tem03",
-      name: "Valkyrie Randgris",
+      name: "Valkyrie Randgris [VR]",
       respawn: {
         min: 28800,
         max: 50400
@@ -662,7 +662,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1917,
       map: "moc_fild22",
-      name: "Wounded Morroc",
+      name: "Wounded Morroc [WM]",
       respawn: {
         min: 43200,
         max: 54e3
