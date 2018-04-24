@@ -417,7 +417,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Hardrock Mammoth",
       respawn: {
         min: 14400,
-        max: 46800
+        max: 14460
       }
     }, {
       id: 1832,
@@ -425,7 +425,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Ifrit",
       respawn: {
         min: 32400,
-        max: 40200
+        max: 46800
       }
     }, {
       id: 1492,
