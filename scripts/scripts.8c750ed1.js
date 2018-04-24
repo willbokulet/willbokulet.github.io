@@ -425,7 +425,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Ifrit",
       respawn: {
         min: 32400,
-        max: 46800
+        max: 43200
       }
     }, {
       id: 1492,
