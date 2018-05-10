@@ -256,8 +256,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "lhz_dun04",
       name: "Bio 4 MVP",
       respawn: {
-        min: 3300,
-        max: 6300
+        min: 6e3,
+        max: 7800
       }
     }, {
       id: 2068,
@@ -425,7 +425,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Ifrit",
       respawn: {
         min: 32400,
-        max: 43200
+        max: 46800
       }
     }, {
       id: 1492,
