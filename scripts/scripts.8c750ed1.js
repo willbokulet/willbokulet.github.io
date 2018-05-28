@@ -393,7 +393,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Gloom Under Night",
       respawn: {
         min: 18e3,
-        max: 18600
+        max: 20400
       }
     }, {
       id: 1086,
@@ -588,6 +588,14 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 8100
       }
     }, {
+      id: 1916,
+      map: "moc_fild21",
+      name: "Satan Morroc [SM]",
+      respawn: {
+        min: 43200,
+        max: 54e3
+      }
+    }, {
       id: 1251,
       map: "xmas_dun02",
       name: "Stormy Knight [SK]",
@@ -600,24 +608,24 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "beach_dun",
       name: "Tao Gunka (West) [TGK]",
       respawn: {
-        min: 18e3,
-        max: 18600
+        min: 17100,
+        max: 19500
       }
     }, {
       id: 1583,
       map: "beach_dun2",
       name: "Tao Gunka (North) [TGK]",
       respawn: {
-        min: 18e3,
-        max: 18600
+        min: 17100,
+        max: 19500
       }
     }, {
       id: 1583,
       map: "beach_dun3",
       name: "Tao Gunka (East) [TGK]",
       respawn: {
-        min: 18e3,
-        max: 18600
+        min: 17100,
+        max: 19500
       }
     }, {
       id: 1991,
