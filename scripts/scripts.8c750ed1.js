@@ -240,8 +240,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "abbey03",
       name: "Beelzebub",
       respawn: {
-        min: 43200,
-        max: 43800
+        min: 36000,
+        max: 50400
       }
     }, {
       id: 1646,
@@ -280,8 +280,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "abyss_03",
       name: "Detale",
       respawn: {
-        min: 10800,
-        max: 11400
+        min: 9900,
+        max: 11700
       }
     }, {
       id: 1582,
@@ -393,7 +393,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Gloom Under Night",
       respawn: {
         min: 18e3,
-        max: 20400
+        max: 19800
       }
     }, {
       id: 1086,
@@ -464,8 +464,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "ayo_dun02",
       name: "Lady Tanee",
       respawn: {
-        min: 25200,
-        max: 25800
+        min: 21600,
+        max: 28800
       }
     }, {
       id: 2156,
@@ -584,8 +584,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "ein_dun02",
       name: "RSX-0806",
       respawn: {
-        min: 7500,
-        max: 8100
+        min: 6600,
+        max: 8400
       }
     }, {
       id: 1916,
@@ -609,7 +609,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (West) [TGK]",
       respawn: {
         min: 17100,
-        max: 19500
+        max: 18900
       }
     }, {
       id: 1583,
@@ -617,7 +617,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (North) [TGK]",
       respawn: {
         min: 17100,
-        max: 19500
+        max: 18900
       }
     }, {
       id: 1583,
@@ -625,7 +625,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (East) [TGK]",
       respawn: {
         min: 17100,
-        max: 19500
+        max: 18900
       }
     }, {
       id: 1991,
