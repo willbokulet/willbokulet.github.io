@@ -9,6 +9,16 @@ body,html{box-sizing:border-box;height:100%}.form-login .control-label,.header .
 .header .navbar li>a{
   color: white;
 }
+
+.header .navbar li.hover>a{
+    color: black;
+    background-color: white;
+}
+.header .navbar li.active>a{
+  border-bottom:2px solid #337ab7!important
+    color: black;
+    background-color: white;
+}
 .header .navbar li.active>a{
   border-bottom:2px solid #337ab7!important
 }
