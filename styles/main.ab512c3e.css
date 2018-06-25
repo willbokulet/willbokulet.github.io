@@ -6,6 +6,13 @@ body,html{box-sizing:border-box;height:100%}.form-login .control-label,.header .
     background-color: black;
     position: fixed;
     width: 100%;
+    z-index: 91;
+}
+.header {
+    z-index: 91;
+}
+ui-view {
+    margin-top: 100px;
 }
 .header .navbar .navbar-element{
     float:right;padding:15px!important
