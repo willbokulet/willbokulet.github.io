@@ -392,8 +392,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       map: "ra_san05",
       name: "Gloom Under Night",
       respawn: {
-        min: 18e3,
-        max: 19800
+        min: 17100,
+        max: 18900
       }
     }, {
       id: 1086,
