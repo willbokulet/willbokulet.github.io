@@ -459,6 +459,14 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         min: 7200,
         max: 7260
       }
+    },{
+      id: 1980,
+      map: "gld_dun",
+      name: "Kublin",
+      respawn: {
+        min: 14400,
+        max: 15000
+      }
     }, {
       id: 1688,
       map: "ayo_dun02",
@@ -498,6 +506,14 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       respawn: {
         min: 7200,
         max: 10800
+      }
+    },{
+      id: 1289,
+      map: "gld_dun",
+      name: "Maya Purple",
+      respawn: {
+        min: 1200,
+        max: 1800
       }
     }, {
       id: 1059,
