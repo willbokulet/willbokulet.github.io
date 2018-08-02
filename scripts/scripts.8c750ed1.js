@@ -510,7 +510,23 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 1289,
       map: "gld_dun",
-      name: "Maya Purple",
+      name: "Maya Purple 1",
+      respawn: {
+        min: 1200,
+        max: 1800
+      }
+    },{
+      id: 1289,
+      map: "gld_dun",
+      name: "Maya Purple 2",
+      respawn: {
+        min: 1200,
+        max: 1800
+      }
+    },{
+      id: 1289,
+      map: "gld_dun",
+      name: "Maya Purple 3",
       respawn: {
         min: 1200,
         max: 1800
