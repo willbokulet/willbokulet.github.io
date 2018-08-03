@@ -500,7 +500,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 8100
       }
     }, {
-      id: 1289,
+      id: 12890,
       map: "anthell01",
       name: "Maya Purple",
       respawn: {
@@ -508,7 +508,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 10800
       }
     },{
-      id: 1289,
+      id: 12891,
       map: "gld_dun",
       name: "Maya Purple 1",
       respawn: {
@@ -516,7 +516,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
         max: 1800
       }
     },{
-      id: 1289,
+      id: 12892,
       map: "gld_dun",
       name: "Maya Purple 2",
       respawn: {
