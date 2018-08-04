@@ -134,7 +134,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     return [{
       id: 1511,
       map: "moc_pryd06",
-      name: "Amon Ra (Daydream)",
+      name: "Amon Ra (Daydream) [AR]",
       respawn: {
         min: 2700,
         max: 4500
@@ -142,7 +142,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 2362,
       map: "moc_prydn2",
-      name: "Amon Ra (Nightmare)",
+      name: "Amon Ra (Nightmare) [AR]",
       respawn: {
         min: 2700,
         max: 4500
@@ -222,7 +222,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1630,
       map: "lou_dun03",
-      name: "White Lady",
+      name: "White Lady [WL]",
       respawn: {
         min: 7020,
         max: 7620
@@ -238,7 +238,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1873,
       map: "abbey03",
-      name: "Beelzebub",
+      name: "Beelzebub [BIG]",
       respawn: {
         min: 36000,
         max: 50400
@@ -246,7 +246,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1646,
       map: "lhz_dun03",
-      name: "Bio 3 MVP",
+      name: "Bio 3 MVP [BIG]",
       respawn: {
         min: 6e3,
         max: 7800
@@ -254,7 +254,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 2231,
       map: "lhz_dun04",
-      name: "Bio 4 MVP",
+      name: "Bio 4 MVP [BIG]",
       respawn: {
         min: 6e3,
         max: 7800
@@ -390,7 +390,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1768,
       map: "ra_san05",
-      name: "Gloom Under Night",
+      name: "Gloom Under Night [GUN]",
       respawn: {
         min: 17100,
         max: 18900
@@ -414,7 +414,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1990,
       map: "man_fild03",
-      name: "Hardrock Mammoth",
+      name: "Hardrock Mammoth [HM]",
       respawn: {
         min: 14400,
         max: 14460
@@ -422,7 +422,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1832,
       map: "thor_v03",
-      name: "Ifrit",
+      name: "Ifrit [BIG]",
       respawn: {
         min: 32400,
         max: 46800
@@ -430,7 +430,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1492,
       map: "ama_dun03",
-      name: "Incantation Samurai",
+      name: "Incantation Samurai [IS]",
       respawn: {
         min: 5460,
         max: 6060
@@ -446,7 +446,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 2202,
       map: "iz_dun05",
-      name: "Kraken",
+      name: "Kraken [BIG]",
       respawn: {
         min: 6300,
         max: 8100
@@ -470,7 +470,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1688,
       map: "ayo_dun02",
-      name: "Lady Tanee",
+      name: "Lady Tanee [LT]",
       respawn: {
         min: 21600,
         max: 28800
@@ -502,7 +502,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 12890,
       map: "anthell01",
-      name: "Maya Purple",
+      name: "Maya Purple [MP]",
       respawn: {
         min: 7200,
         max: 10800
@@ -510,7 +510,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 12891,
       map: "gld_dun",
-      name: "Maya Purple 1",
+      name: "Maya Purple 1 [MP]",
       respawn: {
         min: 1200,
         max: 1800
@@ -518,7 +518,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 12892,
       map: "gld_dun",
-      name: "Maya Purple 2",
+      name: "Maya Purple 2 [MP]",
       respawn: {
         min: 1200,
         max: 1800
@@ -526,7 +526,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     },{
       id: 1289,
       map: "gld_dun",
-      name: "Maya Purple 3",
+      name: "Maya Purple 3 [MP]",
       respawn: {
         min: 1200,
         max: 1800
@@ -542,7 +542,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1150,
       map: "pay_dun04",
-      name: "Moonlight Flower",
+      name: "Moonlight Flower [MF]",
       respawn: {
         min: 2700,
         max: 4500
@@ -550,7 +550,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1087,
       map: "gef_fild02",
-      name: "Orc Hero",
+      name: "Orc Hero [OH]",
       respawn: {
         min: 86400,
         max: 87e3
@@ -558,7 +558,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1087,
       map: "gef_fild14",
-      name: "Orc Hero",
+      name: "Orc Hero [OH]",
       respawn: {
         min: 2700,
         max: 4500
@@ -566,7 +566,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1190,
       map: "gef_fild10",
-      name: "Orc Lord",
+      name: "Orc Lord [OL]",
       respawn: {
         min: 6300,
         max: 8100
@@ -598,7 +598,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 2087,
       map: "dic_dun02",
-      name: "Queen Scaraba",
+      name: "Queen Scaraba [QS]",
       respawn: {
         min: 7200,
         max: 7260
@@ -606,7 +606,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 2165,
       map: "dic_dun03",
-      name: "Gold Queen Scaraba",
+      name: "Gold Queen Scaraba [GQS]",
       respawn: {
         min: 7200,
         max: 7260
@@ -622,7 +622,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1916,
       map: "moc_fild21",
-      name: "Satan Morroc [SM]",
+      name: "Satan Morroc [SM] [BIG]",
       respawn: {
         min: 43200,
         max: 54e3
@@ -641,7 +641,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (West) [TGK]",
       respawn: {
         min: 17100,
-        max: 18900
+        max: 19800
       }
     }, {
       id: 1583,
@@ -649,7 +649,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (North) [TGK]",
       respawn: {
         min: 17100,
-        max: 18900
+        max: 19800
       }
     }, {
       id: 1583,
@@ -657,7 +657,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       name: "Tao Gunka (East) [TGK]",
       respawn: {
         min: 17100,
-        max: 18900
+        max: 19800
       }
     }, {
       id: 1991,
@@ -686,7 +686,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1751,
       map: "odin_tem03",
-      name: "Valkyrie Randgris [VR]",
+      name: "Valkyrie Randgris [VR][BIG]",
       respawn: {
         min: 28800,
         max: 50400
@@ -702,7 +702,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     }, {
       id: 1917,
       map: "moc_fild22",
-      name: "Wounded Morroc [WM]",
+      name: "Wounded Morroc [WM] [BIG]",
       respawn: {
         min: 43200,
         max: 54e3
