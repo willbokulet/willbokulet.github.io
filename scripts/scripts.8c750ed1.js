@@ -698,7 +698,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     e = 0,
     f = !1;
   return c.sync = function() {
-    return b.get("http://www.timeapi.org/utc/now.json").then(function(a) {
+    return b.get("http://worldclockapi.com/api/json/utc/now").then(function(a) {
       e = Math.floor(a.data.st), d = Math.floor((new Date).getTime() / 1e3), f = !0
     })["catch"](function(a) {
       f = !1
