@@ -333,14 +333,12 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       }
     }, {
       id: 1652,
-      map: "Panda",
-      name: "Evil Snake Lord [ESL]",
+      map: "HolyPanda26",
+      name: "Panda",
       respawn: {
         min: 6300,
         max: 8100
-      }
-    }
-    }]
+      }]
   }, d.get = function(b) {
     var c = a.database().ref(b);
     return c
