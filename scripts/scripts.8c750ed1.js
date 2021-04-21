@@ -338,7 +338,8 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
       respawn: {
         min: 6300,
         max: 8100
-      }]
+      }
+    }]
   }, d.get = function(b) {
     var c = a.database().ref(b);
     return c
