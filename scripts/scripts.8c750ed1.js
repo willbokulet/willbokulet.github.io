@@ -134,547 +134,204 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
     return [{
       id: 1511,
       map: "~will",
-      name: "Willbo",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
+      name: "Willbo"
     },{
       id: 2362,
-      map: "moc_prydn2",
-      name: "Amon Ra (Nightmare)",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
+      map: "Bongo Earthquake",
+      name: "Bongo"
     },{
       id: 1096,
-      map: "pay_fild04",
-      name: "Angeling",
+      map: "tnud",
+      name: "tnud",
       respawn: {
         min: 3600,
         max: 5400
       }
     }, {
       id: 1096,
-      map: "xmas_dun01",
-      name: "Angeling",
+      map: "Chevre",
+      name: "Herb",
       respawn: {
         min: 3600,
         max: 5400
       }
     }, {
       id: 1096,
-      map: "yuno_fild03",
-      name: "Angeling",
+      map: "Suleimann III",
+      name: "Sulei",
       respawn: {
         min: 3600,
         max: 5400
       }
     }, {
       id: 1388,
-      map: "yuno_fild05",
-      name: "Archangeling",
+      map: "Xsed",
+      name: "Jelly",
       respawn: {
         min: 3600,
         max: 3780
       }
     }, {
       id: 1785,
-      map: "ra_fild02",
-      name: "Atroce",
+      map: "ReijiMaigo",
+      name: "Reiji",
       respawn: {
         min: 14400,
         max: 15e3
       }
     }, {
       id: 1785,
-      map: "ra_fild03",
-      name: "Atroce",
+      map: "Yukimie",
+      name: "Ev",
       respawn: {
         min: 10800,
         max: 11400
       }
     }, {
       id: 1785,
-      map: "ra_fild04",
-      name: "Atroce",
+      map: "Richies",
+      name: "Chimong",
       respawn: {
         min: 18e3,
         max: 18600
       }
     }, {
       id: 1785,
-      map: "ve_fild01",
-      name: "Atroce",
+      map: "Zhade",
+      name: "Abink",
       respawn: {
         min: 10800,
         max: 11400
       }
     }, {
       id: 1785,
-      map: "ve_fild02",
-      name: "Atroce",
+      map: "Blade Hunter",
+      name: "Burak",
       respawn: {
         min: 21600,
         max: 22200
       }
     }, {
       id: 1630,
-      map: "lou_dun03",
-      name: "White Lady",
+      map: "DarkMinos",
+      name: "Minos",
       respawn: {
         min: 7020,
         max: 7620
       }
     }, {
       id: 1039,
-      map: "prt_maze03",
-      name: "Baphomet",
+      map: "Tainted~",
+      name: "Kriszke",
       respawn: {
         min: 6300,
         max: 8100
       }
     }, {
       id: 1873,
-      map: "abbey03",
-      name: "Beelzebub",
+      map: "Bellucci",
+      name: "Masha",
       respawn: {
         min: 36000,
         max: 50400
       }
     }, {
       id: 1646,
-      map: "lhz_dun03",
-      name: "Bio 3 MVP",
+      map: "Powerbauer",
+      name: "Johnny",
       respawn: {
         min: 6e3,
         max: 7800
       }
     }, {
       id: 2231,
-      map: "lhz_dun04",
-      name: "Bio 4 MVP",
+      map: "Fiel Nirvalen",
+      name: "Fiel",
       respawn: {
         min: 6e3,
         max: 7800
       }
     }, {
       id: 2068,
-      map: "bra_dun02",
-      name: "Boitata",
+      map: "Tweet Mona",
+      name: "Mona",
       respawn: {
         min: 6300,
         max: 8100
       }
     }, {
       id: 1272,
-      map: "gl_chyard",
-      name: "Dark Lord [DL]",
+      map: "Yumelina",
+      name: "Mochina ",
       respawn: {
         min: 2700,
         max: 4500
       }
     }, {
       id: 1719,
-      map: "abyss_03",
-      name: "Detale",
+      map: "Aegor",
+      name: "Amps",
       respawn: {
         min: 9900,
         max: 11700
       }
     }, {
       id: 1582,
-      map: "pay_fild04",
-      name: "Deviling",
+      map: "Billy Theo",
+      name: "Theo",
       respawn: {
         min: 7200,
         max: 10800
       }
     }, {
       id: 1582,
-      map: "yuno_fild03",
-      name: "Deviling",
+      map: "Viotto",
+      name: "Vio",
       respawn: {
         min: 3600,
         max: 5400
       }
     }, {
       id: 1046,
-      map: "gef_dun02",
-      name: "Doppelganger",
+      map: "Callisto [SG]",
+      name: "Callisto",
       respawn: {
         min: 6300,
         max: 8100
       }
     }, {
       id: 1389,
-      map: "gef_dun01",
-      name: "Dracula",
+      map: "Heftridge",
+      name: "Hefty",
       respawn: {
         min: 2700,
         max: 4500
       }
     }, {
       id: 1112,
-      map: "treasure02",
-      name: "Drake",
+      map: "Schleppy*",
+      name: "Schleppy",
       respawn: {
         min: 6300,
         max: 8100
       }
     }, {
       id: 1115,
-      map: "pay_fild11",
-      name: "Eddga",
+      map: "Kutsuru",
+      name: "Kuts",
       respawn: {
         min: 6300,
         max: 8100
       }
     }, {
       id: 1652,
-      map: "lhz_dun02",
-      name: "Egnigem Cenia [GEC]",
+      map: "HolyPanda26",
+      name: "Panda",
       respawn: {
         min: 6300,
         max: 8100
       }
-    }, {
-      id: 1418,
-      map: "gon_dun03",
-      name: "Evil Snake Lord [ESL]",
-      respawn: {
-        min: 5640,
-        max: 6240
-      }
-    }, {
-      id: 1871,
-      map: "abbey02",
-      name: "Fallen Bishop Hibram [FBH]",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1252,
-      map: "xmas_fild01",
-      name: "Garm",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1120,
-      map: "pay_fild04",
-      name: "Ghostring",
-      respawn: {
-        min: 3600,
-        max: 5400
-      }
-    }, {
-      id: 1120,
-      map: "prt_maze03",
-      name: "Ghostring",
-      respawn: {
-        min: 6780,
-        max: 10200
-      }
-    }, {
-      id: 1120,
-      map: "treasure02",
-      name: "Ghostring",
-      respawn: {
-        min: 1980,
-        max: 3180
-      }
-    }, {
-      id: 1768,
-      map: "ra_san05",
-      name: "Gloom Under Night",
-      respawn: {
-        min: 18e3,
-        max: 19800
-      }
-    }, {
-      id: 1086,
-      map: "prt_sewb4",
-      name: "Golden Thief Bug [GTB]",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1885,
-      map: "mosk_dun03",
-      name: "Gopinich",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1990,
-      map: "man_fild03",
-      name: "Hardrock Mammoth",
-      respawn: {
-        min: 14400,
-        max: 14460
-      }
-    }, {
-      id: 1832,
-      map: "thor_v03",
-      name: "Ifrit",
-      respawn: {
-        min: 32400,
-        max: 46800
-      }
-    }, {
-      id: 1492,
-      map: "ama_dun03",
-      name: "Incantation Samurai",
-      respawn: {
-        min: 5460,
-        max: 6060
-      }
-    }, {
-      id: 1734,
-      map: "kh_dun02",
-      name: "Kiel D-01",
-      respawn: {
-        min: 7200,
-        max: 10800
-      }
-    }, {
-      id: 2202,
-      map: "iz_dun05",
-      name: "Kraken",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1779,
-      map: "ice_dun03",
-      name: "Ktullanux",
-      respawn: {
-        min: 7200,
-        max: 7260
-      }
-    }, {
-      id: 1688,
-      map: "ayo_dun02",
-      name: "Lady Tanee",
-      respawn: {
-        min: 21600,
-        max: 28800
-      }
-    }, {
-      id: 2156,
-      map: "dew_dun01",
-      name: "Leak",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1373,
-      map: "niflheim",
-      name: "Lord of Death [LOD]",
-      respawn: {
-        min: 7980,
-        max: 8040
-      }
-    }, {
-      id: 1147,
-      map: "anthell02",
-      name: "Maya",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1289,
-      map: "anthell01",
-      name: "Maya Purple",
-      respawn: {
-        min: 7200,
-        max: 10800
-      }
-    }, {
-      id: 1059,
-      map: "mjolnir_04",
-      name: "Mistress",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1150,
-      map: "pay_dun04",
-      name: "Moonlight Flower",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1087,
-      map: "gef_fild02",
-      name: "Orc Hero",
-      respawn: {
-        min: 86400,
-        max: 87e3
-      }
-    }, {
-      id: 1087,
-      map: "gef_fild14",
-      name: "Orc Hero",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1190,
-      map: "gef_fild10",
-      name: "Orc Lord",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1038,
-      map: "moc_pryd04",
-      name: "Osiris",
-      respawn: {
-        min: 3600,
-        max: 10800
-      }
-    }, {
-      id: 1157,
-      map: "in_sphinx5",
-      name: "Pharaoh",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1159,
-      map: "moc_fild17",
-      name: "Phreeoni",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 2087,
-      map: "dic_dun02",
-      name: "Queen Scaraba",
-      respawn: {
-        min: 7200,
-        max: 7260
-      }
-    }, {
-      id: 2165,
-      map: "dic_dun03",
-      name: "Gold Queen Scaraba",
-      respawn: {
-        min: 7200,
-        max: 7260
-      }
-    }, {
-      id: 1623,
-      map: "ein_dun02",
-      name: "RSX-0806",
-      respawn: {
-        min: 6600,
-        max: 8400
-      }
-    }, {
-      id: 1916,
-      map: "moc_fild21",
-      name: "Satan Morroc [SM]",
-      respawn: {
-        min: 43200,
-        max: 54e3
-      }
-    }, {
-      id: 1251,
-      map: "xmas_dun02",
-      name: "Stormy Knight [SK]",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1583,
-      map: "beach_dun",
-      name: "Tao Gunka (West) [TGK]",
-      respawn: {
-        min: 17100,
-        max: 18900
-      }
-    }, {
-      id: 1583,
-      map: "beach_dun2",
-      name: "Tao Gunka (North) [TGK]",
-      respawn: {
-        min: 17100,
-        max: 18900
-      }
-    }, {
-      id: 1583,
-      map: "beach_dun3",
-      name: "Tao Gunka (East) [TGK]",
-      respawn: {
-        min: 17100,
-        max: 18900
-      }
-    }, {
-      id: 1991,
-      map: "spl_fild03",
-      name: "Tendrillion",
-      respawn: {
-        min: 3600,
-        max: 3660
-      }
-    }, {
-      id: 1708,
-      map: "thana_boss",
-      name: "Thanatos",
-      respawn: {
-        min: 7200,
-        max: 7260
-      }
-    }, {
-      id: 1312,
-      map: "tur_dun04",
-      name: "Turtle General [TG]",
-      respawn: {
-        min: 2700,
-        max: 4500
-      }
-    }, {
-      id: 1751,
-      map: "odin_tem03",
-      name: "Valkyrie Randgris [VR]",
-      respawn: {
-        min: 28800,
-        max: 50400
-      }
-    }, {
-      id: 1685,
-      map: "jupe_core",
-      name: "Vesper",
-      respawn: {
-        min: 6300,
-        max: 8100
-      }
-    }, {
-      id: 1917,
-      map: "moc_fild22",
-      name: "Wounded Morroc [WM]",
-      respawn: {
-        min: 43200,
-        max: 54e3
-      }
+    }
     }]
   }, d.get = function(b) {
     var c = a.database().ref(b);
@@ -988,7 +645,7 @@ app.config(["$stateProvider", "$urlRouterProvider", "localStorageServiceProvider
   }
 }), angular.module("roMvpTrackerApp").run(["$templateCache", function(a) {
     a.put("views/login.html", '<div class="form-login-container" ng-controller="LoginCtrl"> <form id="loginForm" class="form-horizontal form-login"> <div class="form-login-header" ng-class="isValid() ? \'valid\' : \'invalid\'"></div> <div class="form-login-content"> <h4>Login</h4> <!-- email --> <div class="form-group"> <label class="col-md-12 control-label" for="email">E-Mail</label> <div class="col-md-12"> <input id="email" name="email" type="text" placeholder="" class="form-control input-md" ng-model="credentials.email" ng-disabled="login.authenticating"> </div> </div> <!-- password1 --> <div class="form-group"> <label class="col-md-12 control-label" for="password1">Password</label> <div class="col-md-12"> <input id="password1" name="password1" type="password" placeholder="" class="form-control input-md" ng-model="credentials.password" ng-disabled="login.authenticating"> </div> </div> <!-- submit --> <div class="form-group"> <div class="col-md-12"> <button name="submit" class="btn btn-default" ng-click="submit()" ng-disabled="!isValid() || login.authenticating">Login</button> <a ui-sref="signup">Create Account</a> </div> </div> <!-- error --> <div class="text-danger"><strong>{{errorMessage}}</strong></div> </div> </form> </div>'), 
-    a.put("views/mvp.html", '<div ng-controller="MvpCtrl" ng-ifs="initialized"> <div ng-if="login.authenticated"> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!login.userData.activated"> <strong>Authentication Error!</strong> Your account is waiting for activation by a moderator. </div> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!login.userData.username"> <strong>Settings Error!</strong> Please set a display name in the settings. </div> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!settings.group"> <strong>Settings Error!</strong> Please set a tracker group in the settings. </div> </div> <div class="animate-out-hide animated fadeIn" ng-if="isValid()"> <div class="input-group search-filter pull-right"> <input id="mvpFilter" type="text" class="form-control form-control-sm" placeholder="Search" ng-class="{\'rounded\': !mvpFilter}" ng-model="mvpFilter"> <span class="input-group-btn" ng-show="mvpFilter"> <button class="btn btn-default" type="button" ng-click="mvpFilter=\'\'"> <span class="fas fa-times"></span> </button> </span> </div> <table class="table table-striped table-bordered mvp-list"> <thead> <tr> <td>MVP</td> <td>Spawn Time</td> <td>Update</td> </tr> </thead> <tbody> <tr ng-repeat="mvp in (mvpList | filter:mvpFilter | orderBy:orderTrackList)" ng-class="mvp.$track.$highlight"> <td> <div> <span class="mvp-name"><a href="https://panel.talonro.com/mobdb/{{mvp.id}}/" target="_blank">{{mvp.name}}</a></span> <small>(<a href="http://ratemyserver.net/index.php?page=npc_shop_warp&map={{mvp.map}}" target="_blank">{{mvp.map}}</a>)</small> </div> <div><small>{{mvp.respawn.min / 60 | ceil | number:0}} – {{mvp.respawn.max / 60 | ceil | number:0}} Minutes</small></div> </td> <td> <div>{{mvp.map}}</div></td> <td> <center> <form class="form-inline"> <div class="form-group input-group input-group-sm group-track"> <input type="text" class="form-control form-control-sm" ng-init="ago=0" ng-blur="!ago ? ago=0 : ago=ago" ng-model="ago"> <span class="ago"></span> <span class="input-group-btn"> <button class="btn btn-default btn-sm" type="button" ng-click="setTrack(mvp, ago * 60); ago=0;"> <span class="fas fa-share"></span> </button> </span> </div> <div class="form-group" ng-if="mvp.$track.$respawn"> <button class="btn btn-default btn-sm" type="button" ng-click="removeTrack(mvp)"> <span class="fas fa-times"></span> </button> </div> </form> </center> </td> </tr> </tbody> </table> </div> </div>'), 
+    a.put("views/mvp.html", '<div ng-controller="MvpCtrl" ng-ifs="initialized"> <div ng-if="login.authenticated"> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!login.userData.activated"> <strong>Authentication Error!</strong> Your account is waiting for activation by a moderator. </div> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!login.userData.username"> <strong>Settings Error!</strong> Please set a display name in the settings. </div> <div class="alert alert-danger animate-out-hide animated fadeIn" ng-if="!settings.group"> <strong>Settings Error!</strong> Please set a tracker group in the settings. </div> </div> <div class="animate-out-hide animated fadeIn" ng-if="isValid()"> <div class="input-group search-filter pull-right"> <input id="mvpFilter" type="text" class="form-control form-control-sm" placeholder="Search" ng-class="{\'rounded\': !mvpFilter}" ng-model="mvpFilter"> <span class="input-group-btn" ng-show="mvpFilter"> <button class="btn btn-default" type="button" ng-click="mvpFilter=\'\'"> <span class="fas fa-times"></span> </button> </span> </div> <table class="table table-striped table-bordered mvp-list"> <thead> <tr> <td>MVP</td> <td>Money Char</td> <td>Update</td> </tr> </thead> <tbody> <tr ng-repeat="mvp in (mvpList | filter:mvpFilter | orderBy:orderTrackList)" ng-class="mvp.$track.$highlight"> <td> <div> <span class="mvp-name"><a href="https://panel.talonro.com/mobdb/{{mvp.id}}/" target="_blank">{{mvp.name}}</a></span></div> <td> <div>{{mvp.map}}</div></td> <td> <center> <form class="form-inline"> <div class="form-group input-group input-group-sm group-track"> <input type="text" class="form-control form-control-sm" ng-init="ago=0" ng-blur="!ago ? ago=0 : ago=ago" ng-model="ago"> <span class="ago"></span> <span class="input-group-btn"> <button class="btn btn-default btn-sm" type="button" ng-click="setTrack(mvp, ago * 60); ago=0;"> <span class="fas fa-share"></span> </button> </span> </div> <div class="form-group" ng-if="mvp.$track.$respawn"> <button class="btn btn-default btn-sm" type="button" ng-click="removeTrack(mvp)"> <span class="fas fa-times"></span> </button> </div> </form> </center> </td> </tr> </tbody> </table> </div> </div>'), 
     a.put("views/settings.html", '<form class="form-horizontal" ng-controller="SettingsCtrl"> <!-- email --> <div class="form-group"> <label class="col-md-12 control-label" for="authKey">E-Mail</label> <div class="col-md-12"> <div class="input-group"> <input id="settings-email" name="settings-email" type="text" placeholder="" class="form-control input-md" ng-model="login.user.email" disabled> <span class="input-group-btn"> <span name="auth" class="btn btn-default" uib-tooltip="Logout" ng-click="settingsDropdown.open=false;logout();"> <i class="fas fa-sign-out-alt"></i> </span> </span> </div> </div> </div> <!-- username --> <div class="form-group"> <label class="col-md-12 control-label" for="username">Display Name</label> <div class="col-md-12"> <input id="settings-username" name="settings-username" type="text" placeholder="" class="form-control input-md" ng-model="login.userData.username"> </div> </div> <!-- group --> <div class="form-group"> <label class="col-md-12 control-label" for="group">Tracker Group</label> <div class="col-md-12"> <input id="settings-group" name="settings-group" type="text" placeholder="" class="form-control input-md" ng-model="settings.group"> </div> </div> <!-- notification--> <div class="form-group"> <label class="col-md-12 control-label" for="">Notification</label> <div class="col-md-12"> <label class="checkbox-inline" for="notification"> <input type="checkbox" id="notification" name="notification" value="1" ng-model="settings.notificationEnabled"> Notify <span class="form-inline"> <select class="form-control input-xs notification-time" ng-model="settings.notificationTime" ng-options="value*1 for (key, value) in notificationTimeList"></select> </span> minute(s) before spawn </label> </div> </div> </form>'), 
     a.put("views/share-edit.html", '<td> <div class="items" ng-repeat="item in editShare.items | toArray"> <div class="input-group input-group-sm"> <span class="input-group-btn"> <input type="text" class="form-control input-sm input-amount" placeholder="#" ng-change="onShareAmountChange(share, item)" ng-model="item.amount"> </span> <input type="text" class="form-control input-sm" placeholder="Item" ng-model="item.name"> <span class="input-group-btn" ng-if="item.sold"> <input type="text" class="form-control input-sm input-price" placeholder="Price" ng-change="onSharePriceChange(share, item)" ng-model="item.price"> </span> <span class="input-group-btn"> <button class="btn btn-danger" type="button" uib-tooltip="Not sold" ng-click="item.sold=true" ng-if="item.sold===false"> <span class="fas fa-times fa-fw"></span> </button> <button class="btn btn-success" type="button" uib-tooltip="Sold" ng-click="item.sold=false" ng-if="item.sold===true"> <span class="fas fa-check fa-fw"></span> </button> <button class="btn btn-default" type="button" uib-tooltip="Remove" ng-click="removeItem(editShare, item.$id)"> <span class="fas fa-trash"></span> </button> </span> </div> </div> <div class="pull-right"> <div class="input-group input-group-sm input-group-btn-rounded"> <input type="text" class="form-control"> <span class="input-group-btn"> <button type="button" class="btn btn-danger" uib-tooltip="Not sold (all)" ng-click="shareItemsAll(editShare, true)" ng-if="!isShareItemsAll(editShare, true) && editShare.items.length > 0"> <span class="fas fa-times fa-fw"></span> </button> <button type="button" class="btn btn-success" uib-tooltip="Sold (all)" ng-click="shareItemsAll(editShare, false)" ng-if="isShareItemsAll(editShare, true) && editShare.items.length > 0"> <span class="fas fa-check fa-fw"></span> </button> <button type="button" class="btn btn-default" ng-click="addItem(editShare)"> <span class="fas fa-plus"></span> </button> </span> </div> </div> </td> <td> <div class="users" ng-repeat="user in editShare.users | toArray"> <div class="input-group input-group-sm"> <div class="input-group-btn" uib-dropdown dropdown-append-to-body> <button type="button" class="btn btn-default" uib-dropdown-toggle> <span class="caret"></span> </button> <ul class="scrollable-menu" uib-dropdown-menu> <li class="dropdown-filter" ng-click="$event.stopPropagation()"> <input type="text" placeholder="Filter" class="form-control input-sm" ng-model="filterUsers"> </li> <li class="dropdown-filter-spacer"></li> <li ng-repeat="u in usersList | toArray | filter:{username: filterUsers}"> <a href="javascript:void(0);" ng-click="user.name=u.username">{{u.username}}</a> </li> </ul> </div> <input type="text" class="form-control" placeholder="Username" ng-model="user.name"> <span class="input-group-btn"> <button class="btn btn-danger" type="button" uib-tooltip="Share not send" ng-click="user.send=true" ng-if="user.send===false"> <span class="fas fa-times fa-fw"></span> </button> <button class="btn btn-success" type="button" uib-tooltip="Share send" ng-click="user.send=false" ng-if="user.send===true"> <span class="fas fa-check fa-fw"></span> </button> <button class="btn btn-default" type="button" uib-tooltip="Remove" ng-click="removeUser(editShare, user.$id)"> <span class="fas fa-trash fa-fw"></span> </button> </span> </div> </div> <div class="pull-right"> <div class="input-group input-group-sm input-group-btn-rounded"> <input type="text" class="form-control"> <span class="input-group-btn"> <button type="button" class="btn btn-danger" uib-tooltip="Share not send (all)" ng-click="shareUsersAll(editShare, true)" ng-if="!isShareUsersAll(editShare, true) && editShare.users.length > 0"> <span class="fas fa-times fa-fw"></span> </button> <button type="button" class="btn btn-success" uib-tooltip="Share send (all)" ng-click="shareUsersAll(editShare, false)" ng-if="isShareUsersAll(editShare, true) && editShare.users.length > 0"> <span class="fas fa-check fa-fw"></span> </button> <button type="button" class="btn btn-default" ng-click="addUser(editShare)"> <span class="fas fa-plus fa-fw"></span> </button> </span> </div> </div> </td> <td> <input type="text" class="form-control input-sm" placeholder="Username" ng-model="editShare.seller"> </td> <td> <span class="added" am-time-ago="editShare.date * 1000" uib-tooltip="{{editShare.date | amFromUnix | amDateFormat:\'DD.MM.YYYY HH:mm\'}}"></span> </td> <td class="actions"> <center> <button type="button" class="btn btn-sm btn-success" uib-tooltip="Save changes" ng-click="save(editShare)"> <span class="fas fa-check"></span> </button> <button type="button" class="btn btn-sm btn-danger" uib-tooltip="Discard changes" ng-click="cancel()"> <span class="fas fa-ban"></span> </button> </center> </td>'), 
     a.put("views/share-view.html", '<td> <div class="items" ng-repeat="item in share.items | toArray"> <span uib-tooltip="Not sold"> <span class="fas fa-times-circle fa-fw text-danger" ng-if="item.sold===false"></span> </span> <span uib-tooltip="Sold"> <span class="fas fa-check-circle fa-fw text-success" ng-if="item.sold===true"></span> </span> <span ng-class="{\'strike-through\': item.sold===true}">{{item.amount}} × {{item.name || \'(item)\'}}</span> <span ng-if="item.sold===true && item.price > 0">{{item.price * item.amount | number}}</span> </div> <div ng-if="share.$sold===true && share.$total > 0"> <hr> <div>Total: {{share.$total | number}}</div> <div>Share: {{share.$total / share.users.length | number}}</div> </div> </td> <td> <div class="users" ng-repeat="user in share.users | toArray"> <span uib-tooltip="Share not send"> <span class="fas fa-times-circle fa-fw text-danger" ng-if="user.send===false"></span> </span> <span uib-tooltip="Share send"> <span class="fas fa-check-circle fa-fw text-success" ng-if="user.send===true"></span> </span> <span ng-class="{\'strike-through\': user.send===true}">{{user.name || \'(username)\'}}</span> </div> </td> <td> {{share.seller || \'(username)\'}} </td> <td> <span class="added" am-time-ago="share.date * 1000" uib-tooltip="{{share.date | amFromUnix | amDateFormat:\'DD.MM.YYYY HH:mm\'}}"></span> </td> <td class="actions"> <center> <span ng-if="share.owner === login.user.uid"> <button type="button" class="btn btn-sm btn-default" uib-tooltip="Edit" ng-click="edit(share)"> <span class="fas fa-edit fa-fw"></span> </button> <button type="button" class="btn btn-sm btn-default" uib-tooltip="Remove" ng-click="removeShare(share)"> <span class="fas fa-trash fa-fw"></span> </button> </span> </center> </td>'),
